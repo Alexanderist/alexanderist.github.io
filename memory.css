@@ -18,6 +18,7 @@ div.wrapper {
     border-radius: 12pt;
     border-style: outset;
 }
+
 #header {display: flex;}
 #new_game {float: right; margin-left: auto;}
 
@@ -38,8 +39,7 @@ label {
     width: 8em;
 }
 
-input,
-select {
+input, select {
     width: 8em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -59,7 +59,6 @@ header p {
     width: 80px;
     padding-right: 5px;
     padding-bottom: 3px;
-    /* float: left; */
 }
 
 .clear {
@@ -78,5 +77,12 @@ header p {
     height: fit-content;
     width: 100%;
 }
-.grid p {text-align: center;
-margin: auto;}
+.grid p {
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
